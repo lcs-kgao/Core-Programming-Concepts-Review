@@ -21,6 +21,18 @@
  
  */
 // Answer question 4 below
+let peopleAteDinner : Int
+print("Number of people is an integer number")
+let soupConsumed : Double
+print("Mass of soup in litres should record as a decimal number")
+let mainCourseConsumed : Double
+print("Mass of main course in kilograms is a decimal number")
+let pizzaConsumed : Double
+print("Mass of pizza is a decimal number")
+let dateOfTheMeal : String
+print("Date of the meal is recorded as words")
+let timeFrame : String
+print("The time frame of the meal is recorded as words")
 
 /*:
  ## Now share your understanding
