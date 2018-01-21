@@ -23,15 +23,15 @@ import Foundation
 // Revise code below to answer question 1
 
 // Transformation parameters
-let updown = 5.0
-let lr = 2.0
-let stretchvalue = 0.5
+let upOrDown = 5.0
+let leftOrRight = 2.0
+let stretchValue = 0.5
 
 // Set the independent variable value
 let input = 100.0
 
 // Calculate the dependent variable value
-let y = stretchvalue * pow(input - lr, 2) + updown
+let y = stretchValue * pow(input - leftOrRight, 2) + upOrDown
 
 /*:
  In other words:
