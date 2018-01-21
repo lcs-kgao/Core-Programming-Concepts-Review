@@ -18,7 +18,16 @@
  
  */
 // Answer question 2 below
-
+var numberOfCommits : Int
+print("The number of commits will always change, so a variable data type should be used in here.")
+var numberOfForks : Int
+print("The number of forks will change, so we should use variable")
+let yearCreated : Int
+print("The year was created will never change, so use a constant.")
+let monthCreated : Int
+print("The month was created will never change, so use a constant.")
+let dayCreated : Int
+print("The day was created will never change, so use a constant.")
 /*:
  ## Now share your understanding
  
