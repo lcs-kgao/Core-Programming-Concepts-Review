@@ -14,9 +14,22 @@
  If `currentHeartRate` is above the listed zones, print some kind of warning asking the user to slow down.
  */
 
-let currentHeartRate = 128
+let currentHeartRate = 191
+
 
 // Answer question 6 below
+if currentHeartRate >= 100 && currentHeartRate <= 120{
+    print("You are in the very light zone. Activity in this zone helps with recovery. ")
+}else if currentHeartRate >= 121 && currentHeartRate <= 140 {
+    print("You are in the light zone. Activity in this zone helps improve basic endurance and fat burning ")
+}else if currentHeartRate >= 141 && currentHeartRate <= 160{
+    print("You are in the moderate zone. Activity in ths zone helps improve aerobic fitness.")
+}else if currentHeartRate >= 161 && currentHeartRate <= 180{
+    print("You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions.")
+}else if currentHeartRate >= 181 && currentHeartRate <= 200{
+    print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.（你要上天了！！！）")
+}
+
 
 
 /*:
