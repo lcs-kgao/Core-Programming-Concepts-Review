@@ -21,7 +21,7 @@
  
  */
 // Answer question 4 below
-let peopleAteDinner : Int
+let peopleAteDiner : Int
 print("Number of people is an integer number")
 let soupConsumed : Double
 print("Mass of soup in litres should record as a decimal number")

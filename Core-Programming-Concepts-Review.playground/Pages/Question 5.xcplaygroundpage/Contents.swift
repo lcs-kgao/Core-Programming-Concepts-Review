@@ -23,7 +23,7 @@ let isRaining = true
 let isSunny = true
 
 // Answer question 5 below
-let isNiceWeather = temperatureInCelsius >= 20 && isSunny == true || isRaining == false
+let isNiceWeather = !isRaining || temperatureInCelsius > 20 && isSunny
 if isNiceWeather{
     print("I'm going for a walk! ")
 }else{
